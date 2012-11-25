@@ -16,7 +16,7 @@
         "symfony/yaml": "2.2.x-dev"
     },
     "autoload": {
-        "psr-0": { "Heapstersoft\\MenuBundle": "src/" }
+        "psr-0": { "Heapstersoft\\Stats": "src/" }
     },
     "extra": {
         "branch-alias": {
