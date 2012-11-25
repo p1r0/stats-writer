@@ -1,0 +1,23 @@
+{
+    "name": "heapstersoft/stats-writer",
+    "description": "Php Stats Writer",
+    "keywords": ["stats", "php", "statsd"],
+    "homepage": "http://heapstersoft",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tabare Caorsi",
+            "email": "tabare@heapstersoft.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/yaml": "2.2.x-dev"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
