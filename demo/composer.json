@@ -1,0 +1,12 @@
+{
+    "name": "Stats Demo",
+    "description": "",
+    "autoload": {
+        "psr-0": { "": "../src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/yaml": "2.2.x-dev"
+    }
+    
+}
