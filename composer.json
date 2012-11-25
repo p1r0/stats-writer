@@ -10,7 +10,6 @@
             "email": "tabare@heapstersoft.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2",
         "symfony/yaml": "2.2.x-dev"
