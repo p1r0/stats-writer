@@ -13,29 +13,29 @@ Installing
 
 No actual installation is needed just add this to your composer.json require section:
 
-<blockquote>
+<pre>
 	"heapstersoft/stats-writer": "1.0.x-dev"
-</blockquote>
+</pre>
 
 Usage
 --------
 
 First of all you need to include your composer autoload as with any project using composer:
 
-<blockquote>
+<pre>
 	require 'vendor/autoload.php';
-</blockquote>
+</pre>
 
 ideally you would do this in one central place and only once.
 
 Then to send a stat to the backend (see configuration section) you need to create a stats object
 passing the config file as a first paramenter and the just use either increment or decrement:
 
-<blockquote>
+<pre>
 	$statWriter = new \Heapstersoft\Stats\Writer('config/stats.yml');
 
 	$statWriter->increment('key1');
-</blockquote>
+</pre>
 
 For more information I encourage you to view the source code.
 
@@ -55,13 +55,13 @@ Adapters
 
 Example configuration file for StatsD:
 
-<blockquote>
+<pre>
 	Adapter:
 	  class: \Heapstersoft\Stats\Adapter\StatsD
 	  host: "127.0.0.1"
 	  port: 8125
 	  key: "#host#.test.#key#"
-</blockquote>
+</pre>
 
 All parameter should be self explainatory except for the "key" parameter.
 
